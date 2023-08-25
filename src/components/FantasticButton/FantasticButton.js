@@ -34,9 +34,20 @@ function FantasticButton({
         'orange': '#000000'
     }
 
+    const BTN_BORDER_COLORS = {
+        'dark': '#000000',
+        'light': '#ffffff',
+        'tomato': '#ff3333',
+        'chilly': '#1f7a1f',
+        'orange': '#cc8800'
+    }
+
     const buttonStyle = {
         backgroundColor: BTN_BG_COLORS[theme],
         color: BTN_TEXT_COLORS[theme],
+        borderColor: BTN_BORDER_COLORS[theme],
+        borderWidth: '2px',
+        borderStyle: 'solid',
         height: height || 'auto',
         width: width || 'auto',
         margin: margin || '10px',
