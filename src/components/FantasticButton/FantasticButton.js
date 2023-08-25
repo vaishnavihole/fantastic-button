@@ -36,8 +36,8 @@ function FantasticButton({
 
     const BTN_BORDER_COLORS = {
         'dark': '#000000',
-        'light': '#ffffff',
-        'tomato': '#ff3333',
+        'light': '#666666',
+        'tomato': '#b30000',
         'chilly': '#1f7a1f',
         'orange': '#cc8800'
     }
@@ -53,7 +53,7 @@ function FantasticButton({
         margin: margin || '10px',
         marginLeft: marginLeft || 'auto',
         marginRight: marginRight || 'auto',
-        marginTop: marginTop || 'auto',
+        marginTop: marginTop || '10px',
         marginBottom: marginBottom || 'auto',
         padding: padding || '10px',
         paddingLeft: paddingLeft || 'auto',
