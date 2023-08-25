@@ -1,0 +1,40 @@
+.text-center{
+    text-align: center;
+}
+
+.fs-1{
+    font-size: 15px;
+}
+
+.fs-2{
+    font-size: 20px;
+}
+
+.fs-3{
+    font-size: 25px;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+}
+
+.text-white{
+  color: #fff;
+}
+
+.text-red{
+    color: #ff3333;
+}
+
+.info-text{
+    position: fixed;
+    bottom: 80px;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+}
