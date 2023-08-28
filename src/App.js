@@ -42,7 +42,7 @@ function App() {
         theme={'light'} />
 
       <FantasticButton
-        text={'I am Organge Button'}
+        text={'I am Orange Button'}
         width={'200px'}
         marginLeft={'40px'}
         marginRight={'70px'}
